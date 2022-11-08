@@ -1,11 +1,6 @@
-const add = function(a, b) {
-  const result = a + b;
-	return result;
-};
-
-const subtract = function() {
+const add = (a, b) => a + b;
 	
-};
+const subtract = (a , b) => a - b;
 
 const sum = function() {
 	
