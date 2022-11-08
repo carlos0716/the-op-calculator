@@ -20,9 +20,7 @@ const multiply = function([...a]) {
   return multiplyAll;
 };
 
-const power = function() {
-	
-};
+const power = (a ,b) => a ** b;
 
 const factorial = function() {
 	
