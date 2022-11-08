@@ -12,8 +12,12 @@ const sum = function([...a]) { // the parameter for the function includes the re
   
 };
 
-const multiply = function() {
-
+const multiply = function([...a]) {
+  const array = [...a];
+  // initVal = 0; IT DOESN'T NEED AN INITIAL VALUE JUST THE ACCUMULATOR AND THE CURRENT VALUE
+  const multiplyAll = array.reduce((accumulator, currentValue) => accumulator * currentValue
+  );
+  return multiplyAll;
 };
 
 const power = function() {
